@@ -31,6 +31,7 @@ end
 
  end
  if game.PlaceId == 6698092752 then
+    wait(5)
 	repeat
 		for i,f in pairs(game:GetService("Workspace").GateSpawn:GetChildren()) do
 			if string.match(f.Name, "Arank") or string.match(f.Name, "Brank") then
@@ -44,6 +45,7 @@ end
 		end
 	until false
 else
+    wait(5)
 	print("dungeon")
 	while wait() do
 		for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
