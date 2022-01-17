@@ -34,7 +34,7 @@ end
     wait(5)
 	repeat
 		for i,f in pairs(game:GetService("Workspace").GateSpawn:GetChildren()) do
-			if string.match(f.Name, "Arank") or string.match(f.Name, "Brank") then
+			if string.match(f.Name, "Arank") or string.match(f.Name, "RedGate") then
 				while true do
 					print(f.Name)
 					wait(0.01)
